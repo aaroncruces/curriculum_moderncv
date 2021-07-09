@@ -1,12 +1,5 @@
 {
-"Clases LaTeX":[
-	"fontawesome",
-	"moderncv"
-],
-"Paquetes ArchLinux":[
-	"texlive-core",
-	"tllocalmgr"
-],
-"Compilado con":
-	"lualatex"
+  "Clases LaTeX": ["arydshln,multirow,fontawesome", "moderncv", "academicons"],
+  "Paquetes ArchLinux": ["texlive-core", "tllocalmgr"],
+  "Compilado con": "lualatex"
 }
