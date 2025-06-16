@@ -1,260 +1,311 @@
-\documentclass[draft,color,12pt,letterpaper,sans]{moderncv}
+\documentclass[12pt,letterpaper,sans]{moderncv}
 \moderncvtheme[green]{casual}
 \usepackage[utf8]{inputenc}
-%\usepackage{fontawesome}
-\usepackage[margin=1in,bottom=2in,left=0.7in]{geometry}
+\usepackage[margin=1in]{geometry}
 \setlength{\hintscolumnwidth}{7em}
 \recomputelengths
 
-\title {Desarrollador Senior Full Stack y SysAdmin Linux}
-\firstname{Aaron} % Your first name
-\familyname{Cruces Cáceres} % Your last name
-% \address{Rolando Biaggini 631, Antofagasta}{Postal: 1310091}{Chile}
+\firstname{Aaron}
+\familyname{Cruces Cáceres}
 \mobile{+56-9-7423-8157}
 \email{aaroncruces@gmail.com}
 \social[linkedin]{https://www.linkedin.com/in/aaroncruces/}
 \social[github]{https://github.com/aaroncruces}
+\title {Ingeniero Senior Cloud, DevOps, SysAdmin Linux y Desarrollador Full Stack}
 
-% Si se usa "modern", no usar los fontawesome. intentar revisar la documentacion de "\addtofooter" en texdoc y "modernvcsylecasual.sty""
-
-\nopagenumbers{}
 \begin{document}
-\makecvtitle % Obligatorio
+\makecvtitle
 
 \section{Experiencia Laboral Profesional}
 
-\cventry {2023: Julio - Actualidad}
-{Ingeniero Senior DevOps}
-{Centro Educacion Industrial y Minero}
+\cventry{Julio 2023 -- Actualidad}
+{Ingeniero Senior Infraestructura Cloud y DevOps}
+{Centro Educación Industrial y Minero, CEIM}
 {\newline Presencial, Antofagasta}
-{\newline Tecnologías: Microsoft Azure, Debian Linux, Docker, SMB Samba, Gitlab, Ansible}
-{Implementación de despliegues automatizados de arquitectura de servicios utilizando scripts Ansible y Bash versionados con GIT.\newline Creación de sistemas de integración continua mediante instancias de Gitlab runners. Gitlab, database y otros servicios automatizados mediante lanzamientos automáticos de contenedores Docker utilizando Ansible.\newline}
+{\newline Tecnologías: Microsoft Azure, Debian Linux, Docker, Samba, GitLab, Ansible, Nginx.}
+{
+  \begin{itemize}
+    \item Despliegue de servicios App Services y máquinas virtuales utilizando Microsoft Azure y servidores locales con Proxmox.
+    \item Gestión de sistemas operativos Windows Server 2022 con virtualización anidada, Alma Linux y Debian.
+    \item Configuración de plataformas Docker con Portainer, Nginx, IIS y servicios \textit{standalone}.
+    \item Creación de un sistema de almacenamiento con discos duros como carpeta compartida para desarrolladores, utilizando ZFS, TrueNAS, Samba y virtualización con Proxmox (PCI Passthrough).
+    \item Implementación de un gestor de contraseñas centralizado Bitwarden (Vaultwarden) para la gestión de información crítica.
+    \item Automatización de despliegues con scripts de Ansible y Bash, versionados con Git.
+    \item Configuración de sistemas de integración continua mediante GitLab Runners, con despliegues automáticos de contenedores Docker utilizando Ansible.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-
-\cventry {2023: Marzo - Junio}
+\cventry{Marzo -- Junio 2023}
 {Profesor de Informática}
 {Instituto Profesional IPG}
 {\newline Presencial}
-{\newline Tecnologías: Microsoft Office}
-{Enseñanza y entrenamiento práctico en el uso de tecnologías utilizadas para cada carrera asignada. Predominantemente el uso de Microsoft Office, dada la naturaleza de la carreras cuyo curso ha sido impartido.\newline}
+{\newline Tecnologías: Microsoft Office.}
+{
+  \begin{itemize}
+    \item Capacitación práctica en el uso de Microsoft Office para estudiantes de diversas carreras.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2023: Marzo - Junio}
+\cventry{Marzo -- Junio 2023}
 {Ingeniero y Técnico Informático}
 {Instituto Profesional IPG}
 {\newline Presencial}
-{\newline Tecnologías: Microsoft Excel, SMB Samba, FreeBSD, Linux (Arch y Debian)}
-{Implementación de soluciones empresariales en oficina de  admisión estudiantil. Instalación de carpetas compartidas y de respaldo mediante uso de servidor dedicado FreeBSD con SMB Samba y ZFS (mirror). Programación de soluciones para manipulación de datos en Microsoft Excel mediante Typescript. Análisis de arquitectura de redes en escuela colaboradora Julia Herrera Varas.\newline}
+{\newline Tecnologías: Microsoft Excel, Samba, FreeBSD, Linux (Arch, Debian).}
+{
+  \begin{itemize}
+    \item Implementación de soluciones empresariales en la oficina de admisión estudiantil, incluyendo carpetas compartidas y respaldos mediante un servidor FreeBSD con Samba y ZFS (mirror).
+    \item Programación de soluciones para manipulación de datos en Microsoft Excel utilizando TypeScript.
+    \item Análisis y optimización de la arquitectura de redes en la escuela colaboradora Julia Herrera Varas.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {Junio 2022 - Marzo 2023}
+\cventry{Junio 2022 -- Marzo 2023}
 {Desarrollador Web React e Ingeniero Servicios Linux}
 {Tecnojosue}
-{\newline Desarrollo Remoto, Concepcion}
-{\newline Tecnologías:  ReactJS, TypeScript, Prisma ORM, ExpressJS, Linux (Arch y Debian), scripting Bash (unix) y BAT (Windows), servicios de archivos y web (SMB, Cloudflare DynDNS, Portainer-Docker)}
-{Desarrollo de aplicación web para ingreso y gestión de inventariado mediante ReactJS y TypeScript. Implementación de aplicaciones ”self hosted” en servidores Linux mediante uso de cron-jobs, daemons y docker.\newline}
+{\newline Remoto, Concepción}
+{\newline Tecnologías: ReactJS, TypeScript, Prisma ORM, ExpressJS, Linux (Arch, Debian), Bash, BAT, Samba, Cloudflare DynDNS, Portainer-Docker.}
+{
+  \begin{itemize}
+    \item Desarrollo de una aplicación web para gestión de inventarios utilizando ReactJS y TypeScript.
+    \item Implementación de aplicaciones \textit{self-hosted} en servidores Linux mediante \textit{cron-jobs}, \textit{daemons} y Docker.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2021: Septiembre-Octubre}
+\cventry{Septiembre -- Octubre 2021}
 {Desarrollador Full Stack PHP}
-{Te Para Tres, Santiago}
-{\newline Desarrollo remoto}
-{\newline Tecnologías: PHP, VSCode, GIT, Debugging con XDebug, Laravel, FacturaScripts, trello}
-{Mantención y análisis de sistemas legacy creados con Laravel. Integración y desarrollo de sistemas preexistentes y nuevos a plugin FacturaScripts en PHP.\newline}
+{Te Para Tres}
+{\newline Remoto, Santiago}
+{\newline Tecnologías: PHP, VSCode, Git, XDebug, Laravel, FacturaScripts, Trello.}
+{
+  \begin{itemize}
+    \item Mantenimiento y análisis de sistemas \textit{legacy} desarrollados con Laravel.
+    \item Integración y desarrollo de sistemas nuevos y preexistentes en el plugin FacturaScripts con PHP.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2021: Mayo-Agosto}
+\cventry{Mayo -- Agosto 2021}
 {Desarrollador Full Stack Freelance MERN}
-{TeslaDelta, Concepción}
-{\newline Desarrollo remoto}
-{\newline Tecnologías: TypeScript, ReactJS, ReduxJS, Webpack, NodeJS, NPM, ExpressJS, MongoDB, Bootstrap, Sass, Figma, SSH remoto con Ngrok}
-{Creación de plataforma web para la el ingreso, modificación y actualización con código de barras y QR de productos en inventariado.\newline}
+{TeslaDelta}
+{\newline Remoto, Concepción}
+{\newline Tecnologías: TypeScript, ReactJS, ReduxJS, Webpack, NodeJS, ExpressJS, MongoDB, Bootstrap, Sass, Figma, SSH, Ngrok.}
+{
+  \begin{itemize}
+    \item Creación de una plataforma web para ingreso, modificación y actualización de productos en inventarios con códigos de barras y QR.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2020: Septiembre-Diciembre}
-{Ingeniero informático}
+\cventry{Septiembre -- Diciembre 2020}
+{Ingeniero Informático}
 {Moldava; Intergrade}
-{Municipalidad de Lo Barnechea}
-{\newline Tecnologías: Excel macros VBA, Aida64, Microsoft SMB, Acronis True Image}
-{Automatización del scrapping y parsing de reportes de Aida64 mediante Excel VBA; Migración de Sistemas Operativos; Instalación y administración de software y hardware.\newline}
+{\newline Municipalidad de Lo Barnechea}
+{\newline Tecnologías: Excel VBA, Aida64, Samba, Acronis True Image.}
+{
+  \begin{itemize}
+    \item Automatización de \textit{scraping} y \textit{parsing} de reportes de Aida64 mediante Excel VBA.
+    \item Migración de sistemas operativos, instalación y administración de software y hardware.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-
-\cventry {2020: Febrero-Abril}
-{Ingeniero informático}
+\cventry{Febrero -- Abril 2020}
+{Ingeniero Informático}
 {Intergrade; Just Services}
-{Dirección de presupuestos. Ministerio de hacienda}
-{\newline Tecnologías: Microsoft VBscript, Microsoft SMB, Acronis True Image}
-{Automatización en VBscript de procesos de migración de Sistemas Operativos; Instalación y administración de software y hardware.\newline}
+{\newline Dirección de Presupuestos, Ministerio de Hacienda}
+{\newline Tecnologías: VBScript, Samba, Acronis True Image.}
+{
+  \begin{itemize}
+    \item Automatización de procesos de migración de sistemas operativos utilizando VBScript.
+    \item Instalación y administración de software y hardware.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2019: Octubre-Noviembre}
-{Soporte técnico informático}
+\cventry{Octubre -- Noviembre 2019}
+{Soporte Técnico Informático}
 {Advanced Computing Technologies}
-{Hospital de Urgencia y Asistencia Pública. Santiago}
-{}
-{Subcontratación para la realización de servicios de soporte informático en Hospital de Urgencia. Comunicación y coordinación entre personal médico y técnico informático.\newline}
+{\newline Hospital de Urgencia y Asistencia Pública, Santiago}
+{\newline Tecnologías: Ninguna específica.}
+{
+  \begin{itemize}
+    \item Prestación de servicios de soporte informático, coordinando entre personal médico y técnico.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2019: Agosto-Octubre}
-{Ingeniero de sistemas linux, Técnico Informático}
+\cventry{Agosto -- Octubre 2019}
+{Ingeniero de Sistemas Linux, Técnico Informático}
 {La Casa Del Notebook}
-{Calle San Diego, Santiago Centro}
-{\newline Tecnologías: Clonezilla, Linux, MercadoLibre, Microsoft Windows, Microsoft Excel}
-{Administración, e instalación de sistemas Linux. Técnico encargado del área de software, mantenimiento de hardware y control de inventario. Mantenimiento, reparación y venta de equipos informáticos.\newline} 
+{\newline Santiago Centro}
+{\newline Tecnologías: Clonezilla, Linux, MercadoLibre, Windows, Excel.}
+{
+  \begin{itemize}
+    \item Administración e instalación de sistemas Linux, mantenimiento de hardware y control de inventarios.
+    \item Mantenimiento, reparación y venta de equipos informáticos.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {Marzo 2017 - Noviembre 2018 }
+\cventry{Marzo 2017 -- Noviembre 2018}
 {Ingeniero de Servicios T.I.}
 {Ecacom S.P.A.}
-{Molycop; Terquim. }
-{\newline Tecnologías: OpenWRT, Microsoft Office, Microsoft Windows}
-{Subcontratación de parte de empresa Ecacom para prestación de servicios de diversa índole. Incluyendo, relaciones con cliente, administración de equipos, mantenimiento, instalación y configuración de sistemas de red (OpenWRT).\newline}
+{\newline Molycop; Terquim}
+{\newline Tecnologías: OpenWRT, Microsoft Office, Windows.}
+{
+  \begin{itemize}
+    \item Prestación de servicios de soporte, incluyendo relaciones con clientes, administración de equipos y configuración de redes con OpenWRT.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2016: Julio-Noviembre}
+\cventry{Julio -- Noviembre 2016}
 {Desarrollador Full Stack MEAN}
-{Escuela Netland School.}
-{Antofagasta}
-{\newline Tecnologías: Jetbrains WebStorm, AngularJS, Bootstrap, HTMl, CSS, JavaScript, NodeJS, ExpressJS, MongoDB, Yarn, Gulp, Yeoman, Trello}
-{Construcción de plataforma informática para conexión de alumnos y docentes. Construyendo servicio web y aplicación movil Android. Proyecto realizado con equipo de 3 ingenieros. \newline}
+{Escuela Netland School}
+{\newline Antofagasta}
+{\newline Tecnologías: JetBrains WebStorm, AngularJS, Bootstrap, HTML, CSS, JavaScript, NodeJS, ExpressJS, MongoDB, Yarn, Gulp, Yeoman, Trello.}
+{
+  \begin{itemize}
+    \item Desarrollo de una plataforma web y aplicación móvil Android para conectar alumnos y docentes, en un equipo de tres ingenieros.
+  \end{itemize}
+}
+\vspace{0.5em}
 
-\cventry {2016: Marzo-Junio}
+\cventry{Marzo -- Junio 2016}
 {Desarrollador Frontend PHP}
 {Escuela Netland School}
-{Antofagasta}
-{\newline Tecnologías: Jetbrains PhpStorm, PHP, Wordpress, Cpanel, HTML, CSS, JavaScript}
-{Construcción de plataforma web para la comunicación de actividades de clase de educación física. Uso de plataforma CMS Wordpress para el dise\~no y administración de actividades.\newline}
-
-\cventry {2016: Enero-Marzo}
-{Desarrollador JAVA}
-{SEREMI de educación de la región del Biobío}
-{Concepción}
-{\newline Tecnologías: Java, Eclipse, Swing, Apache POI, Microsof Excel}
-{Creación de aplicación de formulario para cálculo, automatización y despacho de viáticos a trabajadores.\newline}
-
-
-\section{Experiencia proyectos personales}
-
-\cventry {}
-{Setup musical linux}
-{Proyecto personal para músico, Sintetizador MIDI}
-{}
-{\newline Tecnologías: Linux, SSH, TMUX, MIDI, Jack Audio Connection Kit, KXStudio Cadence, VST/VSTi Linux Plugins}
-{Setup para músico con la necesidad sintetizar con notebook con mínimos requerimientos, con cero configuración de su parte.\newline}
-\cventry {}
-{Setup musical windows}
-{Proyecto personal para músico, Mandos MIDI}
-{}
-{\newline Tecnologías: FLStudio, ASIO4All, MJOY, MidiYokeNT}
-{Setup para músico con la necesidad de controlar setup MIDI con mandos de videojuegos\newline}
-
-
-\cventry {}
-{Impresion 3D Litófanos}
-{Regalo de cumpleaños para abuela}
-{}
-{\newline Tecnologías: Autodesk Fusion360, GIMP, LuBan3D Lithophane Creator, Autodesk MeshMixer, PrusaSlicer, Prusa MK2s 3D Printer}
-{Creación de litófanos para lámpara con fotos de nietos. Construcción de diseño paramétrico de jaula con Fusion360.
-Transformación de fotografías a litófano con la cadena GIMP \faArrowRight LuBan \faArrowRight MeshMixer. Fabricación con impresora 3D Prusa MK2s \newline}
-
-
-
-\section{Antedentes Académicos}
-\cventry{2009-2017}
-{Ingeniería Civil en Computación e Informática}
-{Universidad Católica del Norte}
-{Antofagasta, Chile}
-{\textit{Licenciado en ciencias de la ingeniería}}
-{}
-
-
-\section{Conocimientos}
-\begin{cvcolumns}
-	\cvcolumn{Lenguajes y Frameworks}
-	{
-		\begin{itemize}
-			\item
-				ReactJS
-			\item
-				ReduxJS
-			\item
-				ExpressJS
-			\item
-				Webpack
-			\item
-				TypeScript
-			\item
-				MongoDB, Mongoose
-			\item
-				SQL
-			\item
-				HTML
-			\item
-				CSS
-			\item
-				VBA
-			\item	
-				VBScript
-			\item
-				JAVA		
-			\item
-				Bash
-			\item
-				C++
-			\item
-				VB.net
-			\item
-				LaTeX
-		\end{itemize}
-	}
-	
-
-\cvcolumn{Tecnologías}
+{\newline Antofagasta}
+{\newline Tecnologías: JetBrains PhpStorm, PHP, WordPress, cPanel, HTML, CSS, JavaScript.}
 {
-	\begin{itemize}
-		\item
-			GIT
-		\item
-			Visual Studio Code
-		\item
-			Jetbrains Webstorm, PhpStorm
-		\item
-			Eclipse
-		\item
-			SysAdmin Linux
-		\item
-			Windows
-		\item
-			Microsoft Office con VBA
-		\item
-			Fusion 360
-		\item
-			VMWare y VirtualBox
-		\item
-			OpenWRT y ddWrt
-		\item
-			GIMP
-		\item
-			Impresion 3D FFF
-		\item
-			MIDI
-		\item	
-			Vim
-	\end{itemize}
+  \begin{itemize}
+    \item Creación de una plataforma web para la comunicación de actividades de educación física, utilizando WordPress como CMS.
+  \end{itemize}
 }
+\vspace{0.5em}
 
-\end{cvcolumns}
-
-
+\cventry{Enero -- Marzo 2016}
+{Desarrollador Java}
+{SEREMI de Educación, Región del Biobío}
+{\newline Concepción}
+{\newline Tecnologías: Java, Eclipse, Swing, Apache POI, Excel.}
+{
+  \begin{itemize}
+    \item Desarrollo de una aplicación de formulario para cálculo, automatización y despacho de viáticos.
+  \end{itemize}
+}
+\vspace{0.5em}
 
 \newpage
 
+\section{Experiencia en Proyectos Personales}
+
+\cventry{}
+{"Self-hosted Homelab"}
+{Sistema de alojamiento y publicación de sitios web personales}
+{\newline Tecnologías: Debian, Proxmox, SSH, Docker, Portainer, Authentik, ZFS, ZSH, Bash, MariaDB, PostgreSQL}
+{\newline}
+{
+  \begin{itemize}
+    \item Creación de arreglos de discos duros con controladores HBA SAS y ZFS para \textit{backups} y servicios \textit{self-hosted}.
+    \item Despliegue de un gestor de contraseñas Bitwarden para manejo centralizado de claves.
+    \item Configuración de servicios web con Portainer, protegidos con Authentik y publicados con Traefik.
+    \item Gestión de control de versiones mediante Gitea.
+    \item Despliegue de un servidor multimedia con Jellyfin y Nvidia Container Runtime.
+    \item Gestión de bases de datos para contenedores con Docker Networks, PostgreSQL y MariaDB.
+    \item Puesta a disposición de documentos y fotos mediante NextCloud y Samba, con deduplicación utilizando \textit{rdfind}, \textit{rsync} y \textit{scripting} en Bash.
+    \item Automatización de despliegues con Ansible, GNU Stow, \textit{rsync} y \textit{scripting} en Bash.
+  \end{itemize}
+}
+\vspace{0.5em}
+
+\cventry{}
+{Setup Musical Linux}
+{Sintetizador MIDI para músicos}
+{\newline Tecnologías: Linux, SSH, TMUX, MIDI, Jack Audio Connection Kit, KXStudio Cadence, VST/VSTi Linux Plugins}
+{\newline}
+{
+  \begin{itemize}
+    \item Configuración de un entorno Linux para sintetizar música con mínimos requerimientos y cero configuración por parte del usuario.
+  \end{itemize}
+}
+\vspace{0.5em}
+
+\cventry{}
+{Setup Musical Windows}
+{Control de mandos MIDI}
+{\newline Tecnologías: FL Studio, ASIO4All, MJOY, MidiYokeNT}
+{\newline}
+{
+  \begin{itemize}
+    \item Configuración de un entorno Windows para controlar un setup MIDI con mandos de videojuegos.
+  \end{itemize}
+}
+\vspace{0.5em}
+
+\cventry{}
+{Impresión 3D Litófanos}
+{Regalo de cumpleaños}
+{\newline Tecnologías: Autodesk Fusion 360, GIMP, LuBan3D Lithophane Creator, Autodesk MeshMixer, PrusaSlicer, Prusa MK2s}
+{\newline}
+{
+  \begin{itemize}
+    \item Creación de litófanos para una lámpara con fotos familiares, utilizando Fusion 360 para el diseño paramétrico y una cadena de herramientas (GIMP, LuBan, MeshMixer) para la transformación de imágenes, fabricados con una impresora 3D Prusa MK2s.
+  \end{itemize}
+}
+\vspace{0.5em}
+
+\newpage
+
+\section{Antecedentes Académicos}
+\cventry{2009--2017}
+{Ingeniería Civil en Computación e Informática}
+{Universidad Católica del Norte}
+{\newline Antofagasta, Chile}
+{\newline Licenciado en Ciencias de la Ingeniería.}
+{}
+
+\section{Conocimientos}
+\begin{cvcolumns}
+  \cvcolumn{Lenguajes y Frameworks}
+  {
+    \begin{itemize}
+      \item Bash
+      \item ExpressJS
+      \item JavaScript
+      \item NodeJS
+      \item PHP
+      \item Python
+      \item ReactJS
+      \item SQL
+      \item TypeScript
+      \item ZSH
+    \end{itemize}
+  }
+  \cvcolumn{Tecnologías}
+  {
+    \begin{itemize}
+      \item Ansible
+      \item Docker
+      \item Git
+      \item GitLab
+      \item Linux (Debian)
+      \item Microsoft Azure
+      \item Nginx
+      \item Proxmox
+      \item Samba
+      \item ZFS
+    \end{itemize}
+  }
+\end{cvcolumns}
+
 \section{Idioma Inglés}
-\cvlanguage{Escritura}
-{Medio Alto}
-{Escritura Fluida.}
-\cvlanguage{Lectura}
-{Alto}
-{Lectura fluida.}
-\cvlanguage{Hablado}
-{Medio Alto}
-{Conversación a ritmo normal.}
-\cvlanguage{Escucha}
-{Alto}
-{Sin problemas para entender videos, podcast, conferencias en audio nativo}
-
-%\newpage
-
+\cvlanguage{Escritura}{B2}{Escritura fluida}
+\cvlanguage{Lectura}{C1}{Lectura fluida}
+\cvlanguage{Hablado}{B2}{Conversación a ritmo normal}
+\cvlanguage{Escucha}{C1}{Comprensión de videos, podcasts y conferencias en audio nativo}
 
 \end{document}
